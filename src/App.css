@@ -1,4 +1,6 @@
-.App {
+/* ==========ALL OF THIS IS CURRENTLY STAYING BECAUSE I LIKE A FEW THINGS SUCH AS THE TRANSFORMATION FOR THE ANIMATION - I WOULD LIKE TO STUDY IT  A LITTLE BIT MORE BEFORE DELETING. ANY OF MY CSS WILL START ON LN 42. =============*/
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +37,39 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.header {
+  background-color: aqua;
+  grid-row: 1;
+  grid-column: 1 / span 4;
+}
+
+.sidebar {
+  background-color: yellowgreen;
+  grid-row: 2 / span 4;
+  grid-column: 1;
+}
+
+.main {
+  background-color: blueviolet;
+  grid-row: 2 / span 4;
+  grid-column: 2 / span 2;
+}
+
+
+
+.some-pics-right {
+  background-color: red;
+  grid-row: 2 / span 4;
+  grid-column: 4;
 }
