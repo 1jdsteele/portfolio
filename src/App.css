@@ -38,6 +38,10 @@
     transform: rotate(360deg);
   }
 } */
+* {
+  color:rgb(44, 44, 44);
+}
+
 
 .App {
   display: grid;
@@ -49,19 +53,20 @@
 
 
 .header {
-  background-color: aqua;
+  background-color: whitesmoke;
   grid-row: 1;
   grid-column: 1 / span 4;
+  border-style: outset;
 }
 
 .sidebar {
-  background-color: yellowgreen;
+  background-color: whitesmoke;
   grid-row: 2 / span 4;
   grid-column: 1;
 }
 
 .main {
-  background-color: blueviolet;
+  background-color: whitesmoke;
   grid-row: 2 / span 4;
   grid-column: 2 / span 2;
 }
@@ -69,7 +74,11 @@
 
 
 .some-pics-right {
-  background-color: red;
+  background-image: linear-gradient(whitesmoke 77%, cornflowerblue);
   grid-row: 2 / span 4;
   grid-column: 4;
+}
+
+a {
+  text-decoration: none;
 }

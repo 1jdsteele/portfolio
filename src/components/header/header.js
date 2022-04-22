@@ -1,9 +1,18 @@
-// import '.../App.css';
+import './Header.css';
+
 
 function Header() {
   return (
     <header className="header">
-        Jake Steele: Full Stack Software Engineer. This is in the header, functioning, yet again
+      <div>
+        <h1>
+          Jake Steele:
+        </h1>
+        <h2>
+          Full Stack Software Engineer. 
+        </h2>
+      </div>
+        
     </header>
   )
 }

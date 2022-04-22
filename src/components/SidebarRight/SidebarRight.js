@@ -1,9 +1,19 @@
-// import './App.css';
+import './SidebarRight.css';
 
 function SidebarRight() {
   return (
-    <aside className="some-pics-right">
-        This is where some pics would go, an aside on the right. Now coming at you straight from the component.
+    <aside className="some-pics-right flex-right-side">
+        <p>
+          <a href="https://www.linkedin.com/in/1jdsteele/">
+            LinkedIn
+          </a>
+        </p>
+        <p>
+          jdsteeleprofessional@gmail.com
+        </p>
+        <h3>
+          Contact
+        </h3>
       </aside>
   )
 }
