@@ -1,0 +1,18 @@
+.headerImage img {
+    max-height: 150px;
+    margin: 0 auto;
+    align-items:center;
+    border-radius: 15px;
+}
+
+.headerImage {
+    margin: 0 auto;
+    align-items:center;
+    /* padding-top: 7px; */
+}
+
+.headerFlex {
+    display: flex;
+    flex-direction: row;
+}
+
