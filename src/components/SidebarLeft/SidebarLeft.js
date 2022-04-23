@@ -1,11 +1,12 @@
 import './SidebarLeft.css';
 import {Link} from 'react-router-dom';
-
+import SidebarRight from '../SidebarRight/SidebarRight';
 function SidebarLeft() {
   return (
     <aside className="sidebar">
         <nav>
           <ul>
+            <h3>Pages</h3>
             <Link to="/personalprojects">
               <li>Personal Projects</li>
             </Link>
@@ -23,6 +24,7 @@ function SidebarLeft() {
             </Link>
           </ul>
         </nav> 
+        <SidebarRight />
       </aside>
   )
 }

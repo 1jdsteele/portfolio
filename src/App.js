@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Main />
       <SidebarLeft />
-      <SidebarRight />
+      {/* <SidebarRight /> */}
     </div>
   );
 }
